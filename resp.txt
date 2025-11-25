@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <!-- Metadatos básicos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- SEO -->
+    <title>Nosotros | Physis Ciclovida Xalapa A.C.</title>
+    <meta
+      name="description"
+      content="Descubre experiencias únicas con nuestros miércoles de ciclovida, tours en bicicleta, rutas y naturaleza al alcance de todos."
+    />
+    <meta
+      name="keywords"
+      content="ciclovida, tours en bicicleta, ciclismo, aventura, naturaleza, viajes en bici, Asociacion Civil, Ciclismo Urbano, Movilidad, MTB"
+    />
+    <meta name="author" content="Physis Ciclovida Xalapa A.C." />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:title" content="Physis Ciclovida Xalapa A.C." />
+    <meta
+      property="og:description"
+      content="Vive la experiencia de recorrer rutas únicas en bicicleta con nosotros."
+    />
+    <meta property="og:image" content="assets/img/preview.jpg" />
+    <meta property="og:url" content="https://www.physisciclovida.org/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Physis Ciclovida Xalapa A.C." />
+    <meta
+      name="twitter:description"
+      content="Vive la experiencia de recorrer rutas únicas en bicicleta con nosotros."
+    />
+    <meta
+      name="twitter:image"
+      content="/assets/img/actividades/lostuxtlas.jpg"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+    />
+
+    <!-- Librería de íconos (FontAwesome o Bootstrap Icons, según prefieras) -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Estilos personalizados -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- JavaScript de Bootstrap (defer para cargar después del HTML) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="bg-success"><br /></div>
+    <div class="wrapper">
+      <!-- Header -->
+      <header>
+        <!-- Barra de navegación -->
+        <nav
+          class="navbar navbar-expand-lg"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
+          <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="/">
+              <img
+                class="logo"
+                src="assets/img/physisciclovidaAC_logo.png"
+                alt="Physis Ciclovida logo"
+              />
+              <h1 style="display: none">Physis Ciclovida A.C.</h1>
+            </a>
+            <!-- Hamburguesa -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNav"
+              aria-controls="mainNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú -->
+            <div class="collapse navbar-collapse" id="mainNav">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#aventuras">Aventuras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#calendario"
+                    >Calendario</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="recursos.html">Recursos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Hero (pantalla completa con imagen destacada + CTA + testimonios) -->
+        <section
+          class="bg-light d-flex align-items-end hero hero-nosotros py-5 mb-4"
+          data-aos="fade-zoom-in"
+        >
+          <div
+            class="container mb-5"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="1000"
+            data-aos-offset="0"
+          >
+            <h2 class="hero-title-interior">Grandes aventuras para recordar</h2>
+            <p class="hero-subtitle d-none d-md-block">
+              Ven a compartir la pasión por el ciclismo de montaña y la
+              naturaleza con nosotros.
+            </p>
+          </div>
+        </section>
+      </header>
+
+      <!-- Main -->
+      <main>
+        <section id="quienes-somos" class="bg-light p-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-4 mb-3">
+                <h1 class="billyohio display-1 text-success">
+                  Quiénes <br class="d-none d-md-block" />Somos
+                </h1>
+              </div>
+              <div class="col-12 col-md-4">
+                <h2 class="fs-5 fw-bold mb-4 text-success">
+                  Physis Ciclovida A.C.
+                </h2>
+                <p>
+                  Physis Ciclovida AC es una asociación civil fundada el 29 de
+                  febrero de 2012, en Xalapa, Veracruz. Desde nuestros inicios,
+                  hemos organizado más de 900 rodadas gratuitas, impactando
+                  positivamente a más de 8,000 personas. Nuestro equipo está
+                  compuesto por ciclistas dedicados, así como estudiantes y
+                  profesionales titulados de diversas áreas como la salud, las
+                  artes, las humanidades, las ciencias exactas y sociales.
+                </p>
+              </div>
+              <div class="col-12 col-md-4">
+                <br class="d-none d-md-block" />
+                <p class="mt-4">
+                  Esta diversidad de enfoques enriquece nuestra perspectiva y
+                  fortalece nuestra misión. Nuestro recurso mas fuerte son cada
+                  uno de los dedicados y experimentados voluntarios que han
+                  llegado para quedarse, una gran mayoría han estado con
+                  nosotros desde nuestra primera actividad y son el testimonio
+                  del valor de nuestras relaciones antiguas en las que la gente
+                  cuida de la gente.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="proposito" class="py-5">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <img
+                src="/assets/img/nosotros1.png"
+                alt="acerca de nosotros"
+                width="100%"
+              />
+            </div>
+
+            <div
+              class="col-12 col-md-6 d-flex flex-column justify-content-center px-5"
+            >
+              <h3 class="billyohio text-success display-3">
+                Nuestro <br />propósito
+              </h3>
+              <p>
+                Promovemos la salud y el bienestar a través del uso de la
+                bicicleta, abordando este objetivo desde múltiples enfoques. La
+                visión que tenemos es crear un entorno que favorezca la elección
+                de la bicicleta como medio de transporte y estilo de vida,
+                promoviendo actividades que educan, concientizan y empoderan a
+                la comunidad.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="staff" class="bg-light p-5">
+          <div class="row">
+            <h3 class="billyohio display-2 text-success mb-4">El Staff</h3>
+            <div class="col-12 col-md-4">
+              <img
+                src="/assets/img/lupita.jpg"
+                alt=""
+                width="250px"
+                height="250px"
+                class="staff-member m-3"
+              />
+            </div>
+            <div class="col-12 col-md-4">
+              <img src="/assets/img/edna.jpg" alt="" class="staff-member m-3" />
+            </div>
+            <div class="col-12 col-md-4 staff-member">
+              <img src="" alt="" width="100%" class="staff-member m-3" />
+            </div>
+          </div>
+        </section>
+        <section id="formulario" class="p-4">
+          <div class="row">
+            <div class="col-12 col-md-6 img-formulario">
+              <img
+                src="/assets/img/hero/physisCiclovidaAC_heroImage-02.jpg"
+                alt=""
+                width="100%"
+                height="100%"
+                style="object-fit: cover"
+                class="rounded-4"
+              />
+            </div>
+            <div class="col-12 col-md-6 border rounded-4">
+              <h4 class="billyohio display-2 text-success mb-4">Contáctanos</h4>
+              <form id="miFormulario">
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nombre"
+                      name="nombre"
+                      placeholder="Juan"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="apellido"
+                      name="apellido"
+                      placeholder="Pérez"
+                    />
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col-12">
+                    <label for="email" class="form-label">Email *</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <div class="col-12 mb-3">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <div class="input-group">
+                      <!-- Selector de país -->
+                      <div class="dropdown">
+                        <button
+                          class="btn btn-outline-secondary dropdown-toggle d-flex align-items-center"
+                          type="button"
+                          id="countryDropdown"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            id="selectedFlag"
+                            src="https://flagcdn.com/us.svg"
+                            alt="US"
+                            width="20"
+                            height="14"
+                            class="me-2"
+                            style="object-fit: cover"
+                          />
+                          <span id="selectedCode">+1</span>
+                        </button>
+
+                        <div
+                          class="dropdown-menu p-2"
+                          style="
+                            max-height: 250px;
+                            overflow-y: auto;
+                            width: 280px;
+                          "
+                        >
+                          <input
+                            type="text"
+                            class="form-control mb-2"
+                            id="countrySearch"
+                            placeholder="Buscar país..."
+                            autocomplete="off"
+                          />
+
+                          <ul id="countryList" class="list-unstyled mb-0"></ul>
+                        </div>
+                      </div>
+
+                      <input
+                        type="hidden"
+                        id="countryCode"
+                        name="countryCode"
+                        value="+1"
+                      />
+
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="phoneNumber"
+                        name="phoneNumber"
+                        placeholder="Número (10 dígitos)"
+                        inputmode="numeric"
+                        maxlength="10"
+                        pattern="[0-9]{10}"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="mensaje" class="form-label">Mensaje *</label>
+                  <textarea
+                    class="form-control"
+                    id="mensaje"
+                    name="mensaje"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-submit btn-success text-white rounded-5 w-50 mt-4"
+                  id="btnEnviar"
+                >
+                  Enviar
+                </button>
+              </form>
+              <div id="alertContainer" class="mt-3"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center">
+              <p class="mb-1">
+                &copy; 2025 Physis Ciclovida A.C. Todos los derechos reservados.
+              </p>
+              <nav>
+                <a href="#actividades" class="text-light mx-2">Actividades</a>
+                <a href="#acerca" class="text-light mx-2">Acerca de</a>
+                <a href="#contacto" class="text-light mx-2">Contacto</a>
+              </nav>
+              <div id="contacto" class="mt-3">
+                <p>Email: physisciclovida@gmail.com | Tel: +52 228 593 6641</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 bg-footer d-none d-md-block">mmmm</div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"
+      defer
+    ></script>
+    <script src="/assets/js/carousel.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/assets/js/gscript.js" defer></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+index
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <!-- Metadatos básicos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- SEO -->
+    <title>Physis Ciclovida Xalapa A.C.</title>
+    <meta
+      name="description"
+      content="Descubre experiencias únicas con nuestros miércoles de ciclovida, tours en bicicleta, rutas y naturaleza al alcance de todos."
+    />
+    <meta
+      name="keywords"
+      content="ciclovida, tours en bicicleta, ciclismo, aventura, naturaleza, viajes en bici, Asociacion Civil, Ciclismo Urbano, Movilidad, MTB"
+    />
+    <meta name="author" content="Physis Ciclovida Xalapa A.C." />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:title" content="Physis Ciclovida Xalapa A.C." />
+    <meta
+      property="og:description"
+      content="Vive la experiencia de recorrer rutas únicas en bicicleta con nosotros."
+    />
+    <meta property="og:image" content="assets/img/preview.jpg" />
+    <meta property="og:url" content="https://www.physisciclovida.org/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Physis Ciclovida Xalapa A.C." />
+    <meta
+      name="twitter:description"
+      content="Vive la experiencia de recorrer rutas únicas en bicicleta con nosotros."
+    />
+    <meta
+      name="twitter:image"
+      content="/assets/img/actividades/lostuxtlas.jpg"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+    />
+
+    <!-- Librería de íconos (FontAwesome o Bootstrap Icons, según prefieras) -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Estilos personalizados -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- JavaScript de Bootstrap (defer para cargar después del HTML) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <header>
+        <!-- Barra de navegación -->
+        <nav
+          class="navbar navbar-expand-lg"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
+          <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="/">
+              <img
+                class="logo"
+                src="assets/img/physisciclovidaAC_logo.png"
+                alt="Physis Ciclovida logo"
+              />
+              <h1 style="display: none">Physis Ciclovida A.C.</h1>
+            </a>
+            <!-- Hamburguesa -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNav"
+              aria-controls="mainNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú -->
+            <div class="collapse navbar-collapse" id="mainNav">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#actividades">Actividades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#acerca">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#caracteristicas"
+                    >Características</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#aventuras">Aventuras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#calendario">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#galeria">Galería</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Hero (pantalla completa con imagen destacada + CTA + testimonios) -->
+        <section class="hero bg-light d-flex align-items-center align-items-md-end" data-aos="fade-zoom-in" >
+          <div
+            class="container mb-5"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="1000"
+            data-aos-offset="0"
+          >
+            <h2 class="hero-title">
+              Viajes increíbles <br />
+              en bici de montaña
+            </h2>
+            <div
+              class="row mt-md-5 align-items-end justify-content-space-between"
+            >
+              <div class="col-12 col-md-5 col-lg-6 text-center text-md-start">
+                <p class="lead">
+                  Diseñamos experiencias únicas de cicloturismo: recorridos
+                  intensos, cómodos y sostenibles dentro y fuera de Xalapa.
+                </p>
+                <a href="#calendario" class="btn btn-success btn-md mt-3"
+                  >Ver fechas</a
+                >
+              </div>
+
+              <div class="col-12 col-md-7 col-lg-6">
+                <!-- Aquí luego irá el mini carrete de testimonios -->
+                <div class="carousel testimonios">
+                  <div class="carousel__track" id="track">
+                    <div class="carousel__slide">
+                      <h4 class="carousel__texto-titulo-testimonio">
+                        "Un renacimiento físico y mental"
+                      </h4>
+                      <p class="carousel__texto-testimonio">
+                        Recorrer esta ruta perfectamente planificada me devolvió
+                        confianza en mis capacidades físicas y mentales. Aprendí
+                        a enfrentar desafíos sin presión y disfrutar del
+                        progreso personal. Amé!
+                      </p>
+                      <div class="row footer-testimonio">
+                        <div class="col-2">
+                          <img
+                            src="/assets/img/testimonios/personas.jpeg"
+                            alt="Foto de Fernanda Lopez"
+                            class="rounded-circle"
+                            width="50"
+                            height="50"
+                          />
+                        </div>
+                        <div class="col-6 d-flex align-items-center">
+                          <p class="mb-0">
+                            <strong>Fernanda López</strong><br />Puebla, MX
+                          </p>
+                        </div>
+                        <div class="col-4 d-flex">
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel__slide">
+                      <h4 class="carousel__texto-titulo-testimonio">
+                        "Conexión con la naturaleza y conmigo mismo"
+                      </h4>
+                      <p class="carousel__texto-testimonio">
+                        La atención a cada detalle del tour transformó mi forma
+                        de disfrutar la naturaleza y el esfuerzo personal. Cada
+                        tramo me enseñó a valorar los pequeños logros y la calma
+                        del entorno.
+                      </p>
+                      <div class="row footer-testimonio">
+                        <div class="col-2">
+                          <img
+                            src="/assets/img/testimonios/personas.jpeg"
+                            alt="Foto de Julio Herrera"
+                            class="rounded-circle"
+                            width="50"
+                            height="50"
+                          />
+                        </div>
+                        <div class="col-6 d-flex align-items-center">
+                          <p class="mb-0">
+                            <strong>Julio Herrera</strong><br />Ciudad de
+                            México, MX
+                          </p>
+                        </div>
+                        <div class="col-4 d-flex">
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel__slide">
+                      <h4 class="carousel__texto-titulo-testimonio">
+                        "Libertad al propio ritmo"
+                      </h4>
+                      <p class="carousel__texto-testimonio">
+                        Poder avanzar a mi propio ritmo hizo que cada tramo del
+                        recorrido se sintiera profundamente liberador y
+                        revitalizante. Comprendí que cada decisión personal
+                        puede marcar la diferencia en mi bienestar.
+                      </p>
+                      <div class="row footer-testimonio">
+                        <div class="col-2">
+                          <img
+                            src="/assets/img/testimonios/personas.jpeg"
+                            alt="Foto de Carlos Ramírez"
+                            class="rounded-circle"
+                            width="50"
+                            height="50"
+                          />
+                        </div>
+                        <div class="col-6 d-flex align-items-center">
+                          <p class="mb-0">
+                            <strong>Carlos Ramírez</strong><br />Veracruz, MX
+                          </p>
+                        </div>
+                        <div class="col-4 d-flex">
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel__slide">
+                      <h4 class="carousel__texto-titulo-testimonio">
+                        "Disciplina y planificación"
+                      </h4>
+                      <p class="carousel__texto-testimonio">
+                        La experiencia organizada y segura me enseñó a valorar
+                        la disciplina y la planificación en mi vida diaria. Me
+                        hizo más consciente de cómo estructurar objetivos sin
+                        perder la flexibilidad.
+                      </p>
+                      <div class="row footer-testimonio">
+                        <div class="col-2">
+                          <img
+                            src="/assets/img/testimonios/personas.jpeg"
+                            alt="Foto de Mariana Herrera"
+                            class="rounded-circle"
+                            width="50"
+                            height="50"
+                          />
+                        </div>
+                        <div class="col-6 d-flex align-items-center">
+                          <p class="mb-0">
+                            <strong>Mariana Herrera</strong><br />Coatepec, MX
+                          </p>
+                        </div>
+                        <div class="col-4 d-flex">
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .carousel -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+    </div>
+
+    <main>
+      <!-- Sección Actividades -->
+      <section id="actividades" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4 billyohio text-success display-2">
+            Actividades de la asociación
+          </h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4 px-3 px-md-2">
+            <div class="col" data-aos="fade-up" data-aos-duration="1000">
+              <div class="card h-100">
+                <img
+                  src="/assets/img/programas/physisCiclovidaAC_epicSeriesMTBVeracruz.webp"
+                  class="card-img-top"
+                  alt="Epic Series MTB Veracruz"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-success">
+                    Epic Series MTB Veracruz
+                  </h5>
+                  <p class="card-text">
+                    Serie de carreras de ciclismo de montaña que se llevan a
+                    cabo en el Dragon Bike Park dentro del ANP San Juan del
+                    Monte en Las Vigas, Veracruz.
+                  </p>
+                  <a
+                    class="btn btn-success"
+                    href="/programas/epic-series.html"
+                    role="button"
+                    >Saber más</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="fade-up" data-aos-duration="1000">
+              <div class="card h-100">
+                <img
+                  src="/assets/img/programas/physisCiclovidaAc_dragonPark.webp"
+                  class="card-img-top"
+                  alt="Dragon Bike Park"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-success">Dragon Bike Park</h5>
+                  <p class="card-text">
+                    Es un circuito de MTB de 38 kilómetros que inicia dentro de
+                    la reserva de San Juan del Monte en los municipios de Las
+                    Vigas y Perote.
+                  </p>
+                  <a class="btn btn-success" href="#" role="button"
+                    >Saber más</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="fade-up" data-aos-duration="1000">
+              <div class="card h-100">
+                <img
+                  src="/assets/img/programas/physisCiclovidaAc_estaciones.webp"
+                  class="card-img-top"
+                  alt="Estaciones de Servicio Ciclovida"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-success">
+                    Estaciones de Servicio
+                  </h5>
+                  <p class="card-text">
+                    Hemos colocado y damos mantenimiento permanente a 12
+                    estaciones de autoservicio mecánico dentro y fuera de la
+                    ciudad de Xalapa.
+                  </p>
+                  <a class="btn btn-success" href="#" role="button"
+                    >Saber más</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col d-none d-md-block">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-none d-md-block">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-none d-md-block">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Acerca de -->
+      <section id="acerca" class="py-5 bg-light">
+        <div class="container-fluid">
+          <div class="card mb-3">
+            <div
+              class="row g-0 flex-column flex-md-row align-items-center bg-success rounded-3"
+            >
+              <!-- Texto primero en md+ -->
+              <div class="col-md-4 order-2 order-md-1 text-white">
+                <div class="card-body py-5">
+                  <h5 class="card-title fs-2">Nosotros</h5>
+                  <p class="card-text fs-6">
+                    Promovemos la salud y el bienestar a través del uso de la
+                    bicicleta, abordando este objetivo desde múltiples enfoques.
+                  </p>
+                  <a href="nosotros.html" class="btn btn-light"
+                    >Conoce más
+                    <span><i class="fa-solid fa-arrow-right"></i></span
+                  ></a>
+                </div>
+              </div>
+              <!-- Imagen después en md+ -->
+              <div class="col-md-8 order-1 order-md-2">
+                <video
+                  width="100%"
+                  height="100%"
+                  class="rounded-top-3 rounded-md-3"
+                  muted
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source src="/assets/video/videohero.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Características -->
+      <section id="caracteristicas" class="py-5">
+        <div class="container">
+          <h2 class="text-center billyohio text-success display-2 mb-4">
+            ¿Por qué rodar con Physis?
+          </h2>
+          <p class="mb-5 fs-5 text-center">
+            Combinamos narutaleza, cultura y aventura, para que las experiencias
+            sean únicas, memorables, auténticas y sostenibles. No importa el
+            nivel de experiencia, siempre hay una aventura que se adapta a tus
+            posibilidades.
+          </p>
+          <br />
+          <div class="row justify-content-space-between text-center my-3">
+            <div class="col-6 col-md-3">
+              <img
+              src="/assets/img/carateristicas/physisCiclovidaAC_002-mountain-biking.png"
+              alt="Icono de ciclista" width="80" height="80" class="mb-4"/ >
+              <h6 class="fw-bold fs-5">Guías Profesonales</h6>
+              <p>
+                Guiamos cada aventura para que tu experiencia sea auténtica y
+                segura.
+              </p>
+            </div>
+            <div class="col-6 col-md-3">
+              <img
+              src="/assets/img/carateristicas/physisCiclovidaAC_004-signboard.png"
+              alt="Icono de ciclista" width="80" height="80" class="mb-4"/ >
+              <h6 class="fw-bold fs-5">Rutas Increíbles</h6>
+              <p>
+                Todos nuestros recorridos combinan naturaleza, cultura y
+                aventura.
+              </p>
+            </div>
+            <div class="col-6 col-md-3">
+              <img
+              src="/assets/img/carateristicas/physisCiclovidaAC_003-helmet.png"
+              alt="Icono de ciclista" width="80" height="80" class="mb-4"/ >
+              <h6 class="fw-bold fs-5">Seguridad y Comodidad</h6>
+              <p>
+                Todo tu viaje está planeado para que solo te preocupes por
+                disfrutar.
+              </p>
+            </div>
+            <div class="col-6 col-md-3">
+              <img
+                src="/assets/img/carateristicas/physisCiclovidaAC_001-mountain-bike.png"
+                alt="Icono de bicicleta de montaña"
+                width="80"
+                height="80"
+                class="mb-4"
+              />
+              <h6 class="fw-bold fs-5">Equipo y Accesorios</h6>
+              <p>
+                Encuentra en nuestra tienda todo lo necesario para tu aventura
+                en bici.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Aventuras -->
+      <section id="aventuras" class="py-5 bg-light mb-5">
+        <div class="container">
+          <h2 class="text-center billyohio text-success display-2 mb-4">
+            Tu siguiente aventura
+          </h2>
+          <div
+            class="main-carousel"
+            data-flickity='{ "wrapAround": true, "autoPlay": true }'
+          >
+            <div class="carousel-cell">
+              <img
+                src="/assets/img/aventuras/lostuxtlas.jpg"
+                alt="Aventura 1"
+                width="100%"
+                height="100%"
+                style="object-fit: cover; border-radius: 15px"
+              />
+              <div class="texto">
+                <h3 class="aventura-title">Los Tuxtlas</h3>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="/assets/img/aventuras/lagoscrater.jpg"
+                alt="Aventura 1"
+                width="100%"
+                height="100%"
+                style="object-fit: cover; border-radius: 15px"
+              />
+              <div class="texto">
+                <h3 class="aventura-title">Lagos Cráter</h3>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="/assets/img/aventuras/lagunas.jpg"
+                alt="Aventura 1"
+                width="100%"
+                height="100%"
+                style="object-fit: cover; border-radius: 15px"
+              />
+              <div class="texto">
+                <h3 class="aventura-title">Las Lagunas</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Calendario -->
+      <section id="calendario" class="py-5 m-3">
+        <div class="container">
+          <h2 class="text-center aventura-title text-light display-2 mb-4">
+            Calendario
+          </h2>
+          <p class="mb-5 fs-6 fw-light text-center text-light">
+            Ven con nosotros en estas fechas y vive la experiencia de recorrer
+            rutas únicas en bicicleta.
+          </p>
+          <div class="fechas fs-6">
+            <div
+              class="row bg-light justify-content-space-between align-items-center mx-3 my-5 p-3 rounded-3"
+            >
+              <div class="col">
+                <strong>Monte Blanco</strong> - 50K - 2 de abril 2026
+              </div>
+              <div class="col text-end">
+                <a href="#" class="btn btn-success">Apartar lugar</a>
+              </div>
+            </div>
+
+            <div
+              class="row bg-light justify-content-space-between align-items-center mx-3 my-5 p-3 rounded-3"
+            >
+              <div class="col">
+                <strong>Monte Blanco</strong> - 50K - 2 de abril 2026
+              </div>
+              <div class="col text-end">
+                <a href="#" class="btn btn-success">Apartar lugar</a>
+              </div>
+            </div>
+
+            <div
+              class="row bg-light justify-content-space-between align-items-center mx-3 my-5 p-3 rounded-3"
+            >
+              <div class="col">
+                <strong>Monte Blanco</strong> - 50K - 2 de abril 2026
+              </div>
+              <div class="col text-end">
+                <a href="#" class="btn btn-success">Apartar lugar</a>
+              </div>
+            </div>
+
+            <div
+              class="row bg-light justify-content-space-between align-items-center mx-3 my-5 p-3 rounded-3"
+            >
+              <div class="col">
+                <strong>Monte Blanco</strong> - 50K - 2 de abril 2026
+              </div>
+              <div class="col text-end">
+                <a href="#" class="btn btn-success">Apartar lugar</a>
+              </div>
+            </div>
+
+            <div
+              class="row bg-light justify-content-space-between align-items-center mx-3 my-5 p-3 rounded-3"
+            >
+              <div class="col">
+                <strong>Monte Blanco</strong> - 50K - 2 de abril 2026
+              </div>
+              <div class="col text-end">
+                <a href="#" class="btn btn-success">Apartar lugar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Galería -->
+      <section id="galeria" class="py-5 bg-light">
+        <div class="container">
+          <h2
+            class="text-center billyohio text-success display-2"
+            style="-webkit-text-stroke: 0.1px green"
+          >
+            Únete a nuestras aventuras
+          </h2>
+          <!-- Elfsight Instagram Feed | Untitled Instagram Feed -->
+          <script src="https://elfsightcdn.com/platform.js" async></script>
+          <div
+            class="elfsight-app-a911fe9c-80ed-4885-a231-ed8a24a29500"
+            data-elfsight-app-lazy
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-success">
+      <div class="container text-center">
+        <p class="mb-1">
+          &copy; 2025 Physis Ciclovida A.C. Todos los derechos reservados.
+        </p>
+        <nav>
+          <a href="#actividades" class="text-light mx-2">Actividades</a>
+          <a href="#acerca" class="text-light mx-2">Acerca de</a>
+          <a href="#contacto" class="text-light mx-2">Contacto</a>
+        </nav>
+        <div id="contacto" class="mt-3">
+          <p>Email: physisciclovida@gmail.com | Tel: +52 228 593 6641</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/assets/js/carousel.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
