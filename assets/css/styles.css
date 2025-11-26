@@ -1,6 +1,6 @@
 @font-face {
   font-family: "BillyOhio";
-  src: url("/assets/fonts/BillyOhio.woff") format("woff");
+  src: url("./assets/fonts/BillyOhio.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
