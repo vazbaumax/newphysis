@@ -1,13 +1,13 @@
 @font-face {
   font-family: "BillyOhio";
-  src: url("./assets/fonts/BillyOhio.woff") format("woff");
+  src: url("../fonts/BillyOhio.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Monday";
-  src: url("/assets/fonts/Monday.ttf") format("ttf");
+  src: url("../fonts/Monday.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
