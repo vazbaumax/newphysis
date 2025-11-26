@@ -1,13 +1,13 @@
 @font-face {
   font-family: "BillyOhio";
-  src: url("./assets/fonts/BillyOhio.woff") format("woff");
+  src: url("/assets/fonts/BillyOhio.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Monday";
-  src: url("./assets/fonts/Monday.ttf") format("ttf");
+  src: url("/assets/fonts/Monday.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .hero-nosotros {
-  background-image: url("./assets/img/hero/physisCiclovidaAC_heroImage-03.webp");
+  background-image: url("/assets/img/hero/physisCiclovidaAC_heroImage-03.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -311,7 +311,7 @@ body {
   left: 0;
   width: 100%;
   height: 80px; /* Ajusta la altura a tu SVG */
-  background-image: url("./assets/img/pleca.svg");
+  background-image: url("/assets/img/pleca.svg");
   background-repeat: no-repeat;
   background-size: cover; /* o contain, depende del diseño */
   pointer-events: none;
